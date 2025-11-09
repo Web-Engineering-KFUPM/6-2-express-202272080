@@ -7,6 +7,9 @@ const quotes = [
   "Programming isn’t about what you know; it’s about what you can figure out."
 ];
 
+
 export function getRandomQuote() {
- return {/*write code to here*/}
+  const index = getRandomInt(quotes.length);
+  return quotes[index];
 }
+
